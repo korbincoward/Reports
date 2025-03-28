@@ -1,4 +1,4 @@
-![Lazarus_Group_G0032](https://github.com/user-attachments/assets/e88ee4f6-f8d1-492f-96e4-63a59f723323)**ByBit Attack**
+**ByBit Attack**
 
 **BLUF:** On or around 20250221, Lazarus Group (G0032) executed an offensive cyber operation that resulted in the theft of $1.5 Billion in Ethereum Tokens from the ByBit Cryptocurrency Platform. This caused a decrease in the price of both Ethereum and Bitcoin,
 as well as a loss of confidence in the ByBit platform. This attack not only allow for the procurement of weapons for the North Korean Military but also cause issues for the Trump Administration's technology policy portfolio. 
@@ -16,6 +16,7 @@ Initial Access: Lazarus Group is know to utilize phishing and spearphishing atta
     T1566.002: Spearphising Link\
     T1566.003: Spearphishing via Service\
 For interactive details, visit the [MITRE ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/#layerURL=https://attack.mitre.org/groups/G0032/G0032-enterprise-layer.json).
+![Lazarus_Group_G0032](https://github.com/user-attachments/assets/e88ee4f6-f8d1-492f-96e4-63a59f723323)\
 
 Exploitation: Lazarus Group utilized a supply chain attack, compromising the system of a Safe{Wallet} developer. After gaining access they injected malicious JavaScript code into the UI from the deleoper's machine.
 According to ByBit's forensics team, these changes were subtle and specifically targeted ByBit.\
@@ -33,9 +34,10 @@ At the end of 2021 North Korea had and estimated 5.9 - 14.7 billion worth of deb
 **North Korea Debt Report:** https://repo.kinu.or.kr/bitstream/2015.oak/14448/5/4.%20Jooyung%20Lee%2897~124%29.pdf \
 **North Korea Troop Movement:** https://apnews.com/article/north-korea-kim-jong-un-drones-reconnaissance-explode-38763ca46140d7f9dbfe3b83ec874631
 
-**Wallets:**
+**Wallets:**\
 The Federal Bureau of Investigation (FBI) released a Public Service Announcement listing the following wallets as having been connected with the threat actors encouraging people to report any activity coming from these wallets.\
 ByBit has also initiated a bounty program to help recover the fund they lost, details can be found at [Lazarus Bounty](https://www.lazarusbounty.com/en/).
+
 0x51E9d833Ecae4E8D9D8Be17300AEE6D3398C135D\
 0x96244D83DC15d36847C35209bBDc5bdDE9bEc3D8\
 0x83c7678492D623fb98834F0fbcb2E7b7f5Af8950\
