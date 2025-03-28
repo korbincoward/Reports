@@ -18,17 +18,17 @@ Initial Access: Lazarus Group is know to utilize phishing and spearphishing atta
 For interactive details, visit the [MITRE ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/#layerURL=https://attack.mitre.org/groups/G0032/G0032-enterprise-layer.json).
 ![Lazarus_Group_G0032](https://github.com/user-attachments/assets/e88ee4f6-f8d1-492f-96e4-63a59f723323)
 
-Exploitation: Lazarus Group utilized a supply chain attack, compromising the system of a Safe{Wallet} developer. After gaining access they injected malicious JavaScript code into the UI from the deleoper's machine.
+Exploitation: Lazarus Group utilized a supply chain attack, compromising the system of a Safe{Wallet} developer. After gaining access they injected malicious JavaScript code into the UI from the developer's machine.
 According to ByBit's forensics team, these changes were subtle and specifically targeted ByBit.\
 
 **ByBit's Initial Analysis:** https://github.com/verichains/public-audit-reports/blob/main/Bybit%20Incident%20Investigation%20-%20Preliminary%20Report%20v1.0%20(for%20public%20release).pdf
 
 Exfiltration: Upon execution of the attack Lazarus had started laundering funds within 48 hours, they are estimated to have laundered $160 million USD within this time frame. By 20250226 it was estimated that $400 million USD had been moved\
-to multiple wallets that were clean. Their process of laundering money shows a high level of sophistication due to their ability to rapidly transfer funds into multiple wallets, cunduct multiple conversions, utilize multiple decentalized exchanges, and utilize cross-chain bridges.
+to multiple wallets that were clean. Their process of laundering money shows a high level of sophistication due to their ability to rapidly transfer funds into multiple wallets, conduct multiple conversions, utilize multiple decentralized exchanges, and utilize cross-chain bridges.
 
 **Analysis**\
 As tensions grow between North Korea and the United States of America and the prolonged North Korean troop deployment in support of the Russo-Ukraine War, North Korea will continue to utilize Lazarus Group as a means to stimulate their economy.\
-At the end of 2021 North Korea had and estimated 5.9 - 14.7 billion worth of debt, it is highly probable that this has increased due to their involvment in the Russo-Ukraine war. They recently sent an additional 3,000 troops to bolster Russia's numbers\
+At the end of 2021 North Korea had and estimated 5.9 - 14.7 billion worth of debt, it is highly probable that this has increased due to their involvement in the Russo-Ukraine war. They recently sent an additional 3,000 troops to bolster Russia's numbers\
 , this brings the North Korean Troop count total to 14,000. It is also reported that North Korea is facing a weapons shortage due to the Russo-Ukraine War.
 
 **North Korea Debt Report:** https://repo.kinu.or.kr/bitstream/2015.oak/14448/5/4.%20Jooyung%20Lee%2897~124%29.pdf \
