@@ -3,6 +3,8 @@
 **BLUF:** On or around 20250221, Lazarus Group (G0032) executed an offensive cyber operation that resulted in the theft of $1.5 Billion in Ethereum Tokens from the ByBit Cryptocurrency Platform. This caused a decrease in the price of both Ethereum and Bitcoin,
 as well as a loss of confidence in the ByBit platform. This attack not only allow for the procurement of weapons for the North Korean Military but also cause issues for the Trump Administration's technology policy portfolio. 
 
+/JS expand on the last sentence, what are the specific issues? Define the "technology policy portfolio."
+
 **Attack Overview:**\
 Advanced Persistent Threat: Lazarus Group (G0032)\
 Attack Date: 20250221\
@@ -10,22 +12,32 @@ Targeted Organization: ByBit\
 Geographic Impact: Worldwide\
 Attack Motivation: Financial/State Motivated
 
+/JS hyperlink to MITRE ATT&CK
+
 **Attack Vector**\
 Initial Access: Lazarus Group is know to utilize phishing and spearphishing attacks to gain access when conducting TraderTraitor based attacks.\
     T1566.001: Spearphishing Attachment\
     T1566.002: Spearphising Link\
     T1566.003: Spearphishing via Service
 
+/JS hyperlink to MITRE ATT&CK
+
 Exploitation: Lazarus Group utilized a supply chain attack, compromising the system of a Safe{Wallet} developer. After gaining access they injected malicious JavaScript code into the UI fromt he deleoper's machine.
 According to ByBit's forensics team, these changes were subtle and specifically targeted ByBit.\
 
+/JS: Typo (25) "from"; link malicous injection description (wikipedia? or something else?)
+
 Exfiltration: Upon execution of the attack Lazarus had started laundering funds within 48 hours, they are estimated to have laundered $160 million within this time frame. By 20250226 it was estimated that $400 million had been moved\
 to multiple wallets that were clean. Their process of laundering money shows a high level of sophistication due to their ability to rapidly transfer funds into multiple wallets, cunduct multiple conversions, utilize multiple decentalized exchanges, and utilize cross-chain bridges.
+
+/JS: Specify currency (USD)
 
 **Analysis**\
 As tensions grow between North Korea and the United States of America and the prolonged North Korean troop deployment in support of the Russo-Ukraine War, North Korea will continue to utilize Lazarus Group as a means to stimulate their economy.\
 At the end of 2021 North Korea had and estimated 5.9 - 14.7 billion worth of debt, it is highly probable that this has increased due to their involvment in the Russo-Ukraine war. They recently sent an additional 3,000 troops to bolster Russia's numbers\
 , this brings the North Korean Troop count total to 14,000. It is also reported that North Korea is facing a weapons shortage due to the Russo-Ukraine War.
+
+/JS: Link the debt report and the news report showing troop movements.
 
 
 **Wallets:**\
