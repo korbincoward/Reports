@@ -18,12 +18,12 @@ Initial Access: Lazarus Group is know to utilize phishing and spearphishing atta
 For interactive details, visit the [MITRE ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/#layerURL=https://attack.mitre.org/groups/G0032/G0032-enterprise-layer.json).
 
 
-
-
-Exploitation: Lazarus Group utilized a supply chain attack, compromising the system of a Safe{Wallet} developer. After gaining access they injected malicious JavaScript code into the UI fromt he deleoper's machine.
+Exploitation: Lazarus Group utilized a supply chain attack, compromising the system of a Safe{Wallet} developer. After gaining access they injected malicious JavaScript code into the UI from the deleoper's machine.
 According to ByBit's forensics team, these changes were subtle and specifically targeted ByBit.\
+**ByBit's Initial Analysis:** https://github.com/verichains/public-audit-reports/blob/main/Bybit%20Incident%20Investigation%20-%20Preliminary%20Report%20v1.0%20(for%20public%20release).pdf
 
-Exfiltration: Upon execution of the attack Lazarus had started laundering funds within 48 hours, they are estimated to have laundered $160 million within this time frame. By 20250226 it was estimated that $400 million had been moved\
+
+Exfiltration: Upon execution of the attack Lazarus had started laundering funds within 48 hours, they are estimated to have laundered $160 million USD within this time frame. By 20250226 it was estimated that $400 million USD had been moved\
 to multiple wallets that were clean. Their process of laundering money shows a high level of sophistication due to their ability to rapidly transfer funds into multiple wallets, cunduct multiple conversions, utilize multiple decentalized exchanges, and utilize cross-chain bridges.
 
 **Analysis**\
