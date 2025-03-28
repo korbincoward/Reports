@@ -16,7 +16,7 @@ Initial Access: Lazarus Group is know to utilize phishing and spearphishing atta
     T1566.002: Spearphising Link\
     T1566.003: Spearphishing via Service\
 For interactive details, visit the [MITRE ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/#layerURL=https://attack.mitre.org/groups/G0032/G0032-enterprise-layer.json).
-![Lazarus_Group_G0032](https://github.com/user-attachments/assets/e88ee4f6-f8d1-492f-96e4-63a59f723323)\
+![Lazarus_Group_G0032](https://github.com/user-attachments/assets/e88ee4f6-f8d1-492f-96e4-63a59f723323)
 
 Exploitation: Lazarus Group utilized a supply chain attack, compromising the system of a Safe{Wallet} developer. After gaining access they injected malicious JavaScript code into the UI from the deleoper's machine.
 According to ByBit's forensics team, these changes were subtle and specifically targeted ByBit.\
