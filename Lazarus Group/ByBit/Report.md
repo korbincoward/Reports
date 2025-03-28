@@ -1,42 +1,30 @@
 **ByBit Attack**
 
-**BLUF:** On or around 20250221, Lazarus Group (G0032) executed an offensive cyber operation that resulted in the theft of $1.5 Billion in Ethereum Tokens from the ByBit Cryptocurrency Platform. This caused a decrease in the price of both Ethereum and Bitcoin,
-as well as a loss of confidence in the ByBit platform. This attack not only allow for the procurement of weapons for the North Korean Military but also cause issues for the Trump Administration's technology policy portfolio. 
+**BLUF:** On or around 20250221, [Lazarus Group (G0032)](https://attack.mitre.org/groups/G0032/) executed an offensive cyber operation that resulted in the theft of $1.5 Billion in Ethereum Tokens from the ByBit Cryptocurrency Platform, causing a decrease in the price of both Ethereum and Bitcoin, as well as a loss of confidence in the ByBit platform. This attack facilitated the illicit procurement of weapons and dual-use technologies for the North Korean military, reinforcing its strategic capabilities in defiance of international sanctions. The event also exposed significant vulnerabilities in U.S. export control enforcement and cyber defense infrastructure—undermining the Trump administration’s broader efforts to safeguard emerging technologies and assert leadership in global technology governance.
 
-**Attack Overview:**\
-Advanced Persistent Threat: Lazarus Group (G0032)\
+**Attack Overview:**
+
 Attack Date: 20250221\
 Targeted Organization: ByBit\
 Geographic Impact: Worldwide\
 Attack Motivation: Financial/State Motivated
 
-**Attack Vector**\
-Initial Access: Lazarus Group is know to utilize phishing and spearphishing attacks to gain access when conducting TraderTraitor based attacks.\
-    T1566.001: Spearphishing Attachment\
-    T1566.002: Spearphising Link\
-    T1566.003: Spearphishing via Service\
-For interactive details, visit the [MITRE ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/#layerURL=https://attack.mitre.org/groups/G0032/G0032-enterprise-layer.json).
-![Lazarus_Group_G0032](https://github.com/user-attachments/assets/e88ee4f6-f8d1-492f-96e4-63a59f723323)
+**Attack Vector:**
 
-Exploitation: Lazarus Group utilized a supply chain attack, compromising the system of a Safe{Wallet} developer. After gaining access they injected malicious JavaScript code into the UI from the developer's machine.
-According to ByBit's forensics team, these changes were subtle and specifically targeted ByBit.\
+***Initial Access:*** Lazarus Group is know to utilize phishing and spearphishing attacks to gain access when conducting TraderTraitor based attacks.
+- [T1566.001: Spearphishing Attachment](https://attack.mitre.org/techniques/T1566/001/)
+- [T1566.002: Spearphishing Link](https://attack.mitre.org/techniques/T1566/002/)
+- [T1566.003: Spearphishing via Service](https://attack.mitre.org/techniques/T1566/003/)
 
-**ByBit's Initial Analysis:** https://github.com/verichains/public-audit-reports/blob/main/Bybit%20Incident%20Investigation%20-%20Preliminary%20Report%20v1.0%20(for%20public%20release).pdf
+***Exploitation:*** Lazarus Group utilized a supply chain attack, compromising the system of a Safe{Wallet} developer. After gaining access, they injected malicious JavaScript code into the UI from the developer's machine. According to ByBit's forensics team, these changes were subtle and specifically targeted [ByBit](https://github.com/verichains/public-audit-reports/blob/main/Bybit%20Incident%20Investigation%20-%20Preliminary%20Report%20v1.0%20(for%20public%20release).pdf).
 
-Exfiltration: Upon execution of the attack Lazarus had started laundering funds within 48 hours, they are estimated to have laundered $160 million USD within this time frame. By 20250226 it was estimated that $400 million USD had been moved\
-to multiple wallets that were clean. Their process of laundering money shows a high level of sophistication due to their ability to rapidly transfer funds into multiple wallets, conduct multiple conversions, utilize multiple decentralized exchanges, and utilize cross-chain bridges.
+**Analysis:**
 
-**Analysis**\
-As tensions grow between North Korea and the United States of America and the prolonged North Korean troop deployment in support of the Russo-Ukraine War, North Korea will continue to utilize Lazarus Group as a means to stimulate their economy.\
-At the end of 2021 North Korea had and estimated 5.9 - 14.7 billion worth of debt, it is highly probable that this has increased due to their involvement in the Russo-Ukraine war. They recently sent an additional 3,000 troops to bolster Russia's numbers\
-, this brings the North Korean Troop count total to 14,000. It is also reported that North Korea is facing a weapons shortage due to the Russo-Ukraine War.
+As tensions grow between North Korea and the United States of America and the prolonged North Korean troop deployment in support of the Russo-Ukraine War, North Korea will continue to utilize Lazarus Group as a means to stimulate their economy. At the end of 2021, North Korea had an estimated $5.9–14.7 billion worth of [debt](https://repo.kinu.or.kr/bitstream/2015.oak/14448/5/4.%20Jooyung%20Lee%2897~124%29.pdf); it is highly probable that this has increased due to their involvement in the Russo-Ukraine War. They recently sent an additional [3,000 troops](https://apnews.com/article/north-korea-kim-jong-un-drones-reconnaissance-explode-38763ca46140d7f9dbfe3b83ec874631) to bolster Russia's numbers, bringing the North Korean troop count total to 14,000, potentially causing a domestic military weapons shortage.
 
-**North Korea Debt Report:** https://repo.kinu.or.kr/bitstream/2015.oak/14448/5/4.%20Jooyung%20Lee%2897~124%29.pdf \
-**North Korea Troop Movement:** https://apnews.com/article/north-korea-kim-jong-un-drones-reconnaissance-explode-38763ca46140d7f9dbfe3b83ec874631
+**Wallets:**
 
-**Wallets:**\
-The Federal Bureau of Investigation (FBI) released a Public Service Announcement listing the following wallets as having been connected with the threat actors encouraging people to report any activity coming from these wallets.\
-ByBit has also initiated a bounty program to help recover the fund they lost, details can be found at [Lazarus Bounty](https://www.lazarusbounty.com/en/).
+The Federal Bureau of Investigation (FBI) released a Public Service Announcement listing the following wallets as having been connected with the threat actors encouraging people to report any activity coming from these wallets. ByBit has also initiated a bounty program to help recover the fund they lost, details can be found at [Lazarus Bounty](https://www.lazarusbounty.com/en/).
 
 0x51E9d833Ecae4E8D9D8Be17300AEE6D3398C135D\
 0x96244D83DC15d36847C35209bBDc5bdDE9bEc3D8\
