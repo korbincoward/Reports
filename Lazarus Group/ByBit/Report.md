@@ -25,7 +25,7 @@ to multiple wallets that were clean. Their process of laundering money shows a h
 **Analysis**\
 As tensions grow between North Korea and the United States of America and the prolonged North Korean troop deployment in support of the Russo-Ukraine War, North Korea will continue to utilize Lazarus Group as a means to stimulate their economy.\
 At the end of 2021 North Korea had and estimated 5.9 - 14.7 billion worth of debt, it is highly probable that this has increased due to their involvment in the Russo-Ukraine war. They recently sent an additional 3,000 troops to bolster Russia's numbers\
-, this brings the North Korean Troop count total to 14,000. It is also reported that North Korea is facing a weapons shortage due to the Russo-Ukraine War./
+, this brings the North Korean Troop count total to 14,000. It is also reported that North Korea is facing a weapons shortage due to the Russo-Ukraine War.
 
 
 **Wallets:**\
