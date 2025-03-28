@@ -1,4 +1,4 @@
-**ByBit Attack**\
+**ByBit Attack**
 
 **BLUF:** On or around 20250221, Lazarus Group (G0032) executed an offensive cyber operation that resulted in the theft of $1.5 Billion in Ethereum Tokens from the ByBit Cryptocurrency Platform. This caused a decrease in the price of both Ethereum and Bitcoin,
 as well as a loss of confidence in the ByBit platform. This attack not only allow for the procurement of weapons for the North Korean Military but also cause issues for the Trump Administration's technology policy portfolio. 
