@@ -15,6 +15,7 @@ Initial Access: Lazarus Group is know to utilize phishing and spearphishing atta
     T1566.001: Spearphishing Attachment\
     T1566.002: Spearphising Link\
     T1566.003: Spearphishing via Service
+
 MITRE ATT&CK:
 https://mitre-attack.github.io/attack-navigator//#layerURL=https%3A%2F%2Fattack.mitre.org%2Fgroups%2FG0032%2FG0032-enterprise-layer.json
 
