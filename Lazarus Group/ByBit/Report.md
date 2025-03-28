@@ -31,7 +31,7 @@ As tensions grow between North Korea and the United States of America and the pr
 At the end of 2021 North Korea had and estimated 5.9 - 14.7 billion worth of debt, it is highly probable that this has increased due to their involvment in the Russo-Ukraine war. They recently sent an additional 3,000 troops to bolster Russia's numbers\
 , this brings the North Korean Troop count total to 14,000. It is also reported that North Korea is facing a weapons shortage due to the Russo-Ukraine War.
 
-**North Korea Debt Report:** https://repo.kinu.or.kr/bitstream/2015.oak/14448/5/4.%20Jooyung%20Lee%2897~124%29.pdf
+**North Korea Debt Report:** https://repo.kinu.or.kr/bitstream/2015.oak/14448/5/4.%20Jooyung%20Lee%2897~124%29.pdf \
 **North Korea Troop Movement:** https://apnews.com/article/north-korea-kim-jong-un-drones-reconnaissance-explode-38763ca46140d7f9dbfe3b83ec874631
 
 
