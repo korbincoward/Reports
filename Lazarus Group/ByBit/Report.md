@@ -6,9 +6,9 @@ as well as a loss of confidence in the ByBit platform. This attack not only allo
 **Attack Overview:**\
 Advanced Persistent Threat: Lazarus Group (G0032)\
 Attack Date: 20250221\
-Targeted Organization: ByBIt\
+Targeted Organization: ByBit\
 Geographic Impact: Worldwide\
-Attack Motivation: Financial\
+Attack Motivation: Financial/State Motivated
 
 **Attack Vector**\
 Initial Access: Lazarus Group is know to utilize phishing and spearphishing attacks to gain access when conducting TraderTraitor based attacks.\
@@ -16,10 +16,11 @@ Initial Access: Lazarus Group is know to utilize phishing and spearphishing atta
     T1566.002: Spearphising Link\
     T1566.003: Spearphishing via Service
 
-Exploitation: Lazarus Group utilized a supply chain attack, compromising the system of a Safe{Wallet} developer. After gaining access they injected malicous JavaScript code into the UI fromt he deleoper's machine.
+Exploitation: Lazarus Group utilized a supply chain attack, compromising the system of a Safe{Wallet} developer. After gaining access they injected malicious JavaScript code into the UI fromt he deleoper's machine.
 According to ByBit's forensics team, these changes were subtle and specifically targeted ByBit.\
 
-Exfiltration: Upon execution of the attack Lazarus had started laundering funds within 48 hours, they are estimated to have laundered $160 million within this time frame. By 20250226 it was estimated that $400 million had been moved.
+Exfiltration: Upon execution of the attack Lazarus had started laundering funds within 48 hours, they are estimated to have laundered $160 million within this time frame. By 20250226 it was estimated that $400 million had been moved\
+to multiple wallets that were clean. Their process of laundering money shows a high level of sophistication due to their ability to rapidly transfer funds into multiple wallets, cunduct multiple conversions, utilize multiple decentalized exchanges, and utilize cross-chain bridges.
 
 **Analysis**\
 As tensions grow between North Korea and the United States of America and the prolonged North Korean troop deployment in support of the Russo-Ukraine War, North Korea will continue to utilize Lazarus Group as a means to stimulate their economy.\
