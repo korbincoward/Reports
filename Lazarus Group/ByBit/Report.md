@@ -14,16 +14,7 @@ Attack Motivation: Financial/State Motivated
 Initial Access: Lazarus Group is know to utilize phishing and spearphishing attacks to gain access when conducting TraderTraitor based attacks.\
     T1566.001: Spearphishing Attachment\
     T1566.002: Spearphising Link\
-    T1566.003: Spearphishing via Service
-
-## MITRE ATT&CK: APT32  
-
-Here is an overview of APT32 in the MITRE ATT&CK framework.  
-
-<p align="center">
-  <img src="./images/apt32-mitre-navigator.png" width="80%">
-</p>
-
+    T1566.003: Spearphishing via Service\
 For interactive details, visit the [MITRE ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/#layerURL=https://attack.mitre.org/groups/G0032/G0032-enterprise-layer.json).
 
 
