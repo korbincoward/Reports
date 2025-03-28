@@ -1,4 +1,4 @@
-**ByBit Attack**
+**ByBit Attack**\
 
 **BLUF:** On or around 20250221, Lazarus Group (G0032) executed an offensive cyber operation that resulted in the theft of $1.5 Billion in Ethereum Tokens from the ByBit Cryptocurrency Platform. This caused a decrease in the price of both Ethereum and Bitcoin,
 as well as a loss of confidence in the ByBit platform. This attack not only allow for the procurement of weapons for the North Korean Military but also cause issues for the Trump Administration's technology policy portfolio. 
@@ -14,12 +14,17 @@ Attack Motivation: Financial\
 Initial Access: Lazarus Group is know to utilize phishing and spearphishing attacks to gain access when conducting TraderTraitor based attacks.\
     T1566.001: Spearphishing Attachment\
     T1566.002: Spearphising Link\
-    T1566.003: Spearphishing via Service\
+    T1566.003: Spearphishing via Service
 
 Exploitation: Lazarus Group utilized a supply chain attack, compromising the system of a Safe{Wallet} developer. After gaining access they injected malicous JavaScript code into the UI fromt he deleoper's machine.
 According to ByBit's forensics team, these changes were subtle and specifically targeted ByBit.\
 
+Exfiltration: Upon execution of the attack Lazarus had started laundering funds within 48 hours, they are estimated to have laundered $160 million within this time frame. By 20250226 it was estimated that $400 million had been moved.
+
 **Analysis**\
+As tensions grow between North Korea and the United States of America and the prolonged North Korean troop deployment in support of the Russo-Ukraine War, North Korea will continue to utilize Lazarus Group as a means to stimulate their economy.\
+At the end of 2021 North Korea had and estimated 5.9 - 14.7 billion worth of debt, it is highly probable that this has increased due to their involvment in the Russo-Ukraine war. They recently sent an additional 3,000 troops to bolster Russia's numbers\
+, this brings the North Korean Troop count total to 14,000. It is also reported that North Korea is facing a weapons shortage due to the Russo-Ukraine War./
 
 
 **Wallets:**\
