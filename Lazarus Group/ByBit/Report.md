@@ -17,11 +17,10 @@ Initial Access: Lazarus Group is know to utilize phishing and spearphishing atta
     T1566.003: Spearphishing via Service\
 For interactive details, visit the [MITRE ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/#layerURL=https://attack.mitre.org/groups/G0032/G0032-enterprise-layer.json).
 
-
 Exploitation: Lazarus Group utilized a supply chain attack, compromising the system of a Safe{Wallet} developer. After gaining access they injected malicious JavaScript code into the UI from the deleoper's machine.
 According to ByBit's forensics team, these changes were subtle and specifically targeted ByBit.\
-**ByBit's Initial Analysis:** https://github.com/verichains/public-audit-reports/blob/main/Bybit%20Incident%20Investigation%20-%20Preliminary%20Report%20v1.0%20(for%20public%20release).pdf
 
+**ByBit's Initial Analysis:** https://github.com/verichains/public-audit-reports/blob/main/Bybit%20Incident%20Investigation%20-%20Preliminary%20Report%20v1.0%20(for%20public%20release).pdf
 
 Exfiltration: Upon execution of the attack Lazarus had started laundering funds within 48 hours, they are estimated to have laundered $160 million USD within this time frame. By 20250226 it was estimated that $400 million USD had been moved\
 to multiple wallets that were clean. Their process of laundering money shows a high level of sophistication due to their ability to rapidly transfer funds into multiple wallets, cunduct multiple conversions, utilize multiple decentalized exchanges, and utilize cross-chain bridges.
@@ -34,8 +33,9 @@ At the end of 2021 North Korea had and estimated 5.9 - 14.7 billion worth of deb
 **North Korea Debt Report:** https://repo.kinu.or.kr/bitstream/2015.oak/14448/5/4.%20Jooyung%20Lee%2897~124%29.pdf \
 **North Korea Troop Movement:** https://apnews.com/article/north-korea-kim-jong-un-drones-reconnaissance-explode-38763ca46140d7f9dbfe3b83ec874631
 
-
-**Wallets:**\
+**Wallets:**
+The Federal Bureau of Investigation (FBI) released a Public Service Announcement listing the following wallets as having been connected with the threat actors encouraging people to report any activity coming from these wallets.\
+ByBit has also initiated a bounty program to help recover the fund they lost, details can be found at [Lazarus Bounty](https://www.lazarusbounty.com/en/).
 0x51E9d833Ecae4E8D9D8Be17300AEE6D3398C135D\
 0x96244D83DC15d36847C35209bBDc5bdDE9bEc3D8\
 0x83c7678492D623fb98834F0fbcb2E7b7f5Af8950\
