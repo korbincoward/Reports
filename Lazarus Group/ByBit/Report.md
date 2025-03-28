@@ -16,10 +16,16 @@ Initial Access: Lazarus Group is know to utilize phishing and spearphishing atta
     T1566.002: Spearphising Link\
     T1566.003: Spearphishing via Service
 
-<iframe src="https://mitre-attack.github.io/attack-navigator//#layerURL=https%3A%2F%2Fattack.mitre.org%2Fgroups%2FG0032%2FG0032-enterprise-layer.json" width="100%" height="600px"></iframe>
+## MITRE ATT&CK: APT32  
 
+Here is an overview of APT32 in the MITRE ATT&CK framework.  
 
-[View MITRE ATT&CK Navigator - APT32](https://mitre-attack.github.io/attack-navigator//#layerURL=https%3A%2F%2Fattack.mitre.org%2Fgroups%2FG0032%2FG0032-enterprise-layer.json)
+<p align="center">
+  <img src="./images/apt32-mitre-navigator.png" width="80%">
+</p>
+
+For interactive details, visit the [MITRE ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/#layerURL=https://attack.mitre.org/groups/G0032/G0032-enterprise-layer.json).
+
 
 
 
