@@ -11,7 +11,7 @@ Attack Motivation: Financial/State Motivated
 
 **Attack Vector**
 
-Initial Access: Lazarus Group is know to utilize phishing and spearphishing attacks to gain access when conducting TraderTraitor based attacks.\
+Initial Access: Lazarus Group is know to utilize phishing and spearphishing attacks to gain access when conducting TraderTraitor based attacks.
 - [T1566.001: Spearphishing Attachment](https://attack.mitre.org/techniques/T1566/001/)
 - [T1566.002: Spearphishing Link](https://attack.mitre.org/techniques/T1566/002/)
 - [T1566.003: Spearphishing via Service](https://attack.mitre.org/techniques/T1566/003/)
