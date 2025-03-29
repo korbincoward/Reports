@@ -16,9 +16,6 @@ Initial Access: Lazarus Group is know to utilize phishing and spearphishing atta
 - [T1566.002: Spearphishing Link](https://attack.mitre.org/techniques/T1566/002/)
 - [T1566.003: Spearphishing via Service](https://attack.mitre.org/techniques/T1566/003/)
 
-Exploitation: Lazarus Group utilized a supply chain attack, compromising the system of a Safe{Wallet} developer. After gaining access they injected malicious JavaScript code into the UI from the developer's machine.
-According to ByBit's forensics team, these changes were subtle and specifically targeted ByBit.\
-
 ***Exploitation:*** Lazarus Group utilized a supply chain attack, compromising the system of a Safe{Wallet} developer. After gaining access, they injected malicious JavaScript code into the UI from the developer's machine. According to ByBit's forensics team, these changes were subtle and specifically targeted [ByBit](https://github.com/verichains/public-audit-reports/blob/main/Bybit%20Incident%20Investigation%20-%20Preliminary%20Report%20v1.0%20(for%20public%20release).pdf).
 
 Exfiltration: Upon execution of the attack Lazarus had started laundering funds within 48 hours, they are estimated to have laundered $160 million USD within this time frame. By 20250226 it was estimated that $400 million USD had been moved to multiple wallets that were clean. Their process of laundering money shows a high level of sophistication due to their ability to rapidly transfer funds into multiple wallets, conduct multiple conversions, utilize multiple decentralized exchanges, and utilize cross-chain bridges.
@@ -32,7 +29,7 @@ At the end of 2021 North Korea had and estimated 5.9 - 14.7 billion worth of [de
 
 **Wallets:**
 
-The Federal Bureau of Investigation (FBI) released a Public Service Announcement ([FBI PSA](https://www.ic3.gov/PSA/2025/PSA250226))listing the following wallets as having been connected with the threat actors encouraging people to report any activity coming from these wallets. ByBit has also initiated a bounty program to help recover the fund they lost, details can be found at [Lazarus Bounty](https://www.lazarusbounty.com/en/).
+The Federal Bureau of Investigation (FBI) released a Public Service Announcement ([FBI PSA](https://www.ic3.gov/PSA/2025/PSA250226)) listing the following wallets as having been connected with the threat actors encouraging people to report any activity coming from these wallets. ByBit has also initiated a bounty program to help recover the fund they lost, details can be found at [Lazarus Bounty](https://www.lazarusbounty.com/en/).
 
 0x51E9d833Ecae4E8D9D8Be17300AEE6D3398C135D\
 0x96244D83DC15d36847C35209bBDc5bdDE9bEc3D8\
